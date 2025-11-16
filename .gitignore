@@ -1,0 +1,23 @@
+# datasets
+data/
+*.zip
+*.tar
+*.csv
+
+# model weights
+*.pth
+*.pt
+*.h5
+weights/
+checkpoints/
+
+# python cache
+__pycache__/
+*.pyc
+
+# jupyter notebooks
+.ipynb_checkpoints/
+
+# system files
+.DS_Store
+
