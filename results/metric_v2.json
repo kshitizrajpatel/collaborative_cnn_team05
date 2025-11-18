@@ -1,0 +1,20 @@
+{
+  "training": {
+    "accuracy": 0.9766
+  },
+  "validation": {
+    "accuracy": 0.9584
+  },
+  "evaluation": {
+    "accuracy": 0.9556,
+    "loss": 0.1446,
+    "precision": 0.9629,
+    "recall": 0.9509
+  },
+  "testing": {
+    "loss": 0.14624230563640594,
+    "accuracy": 0.954757571220398,
+    "precision": 0.9503186941146851,
+    "recall": 0.9609829187393188
+  }
+}
