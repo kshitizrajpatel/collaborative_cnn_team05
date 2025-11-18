@@ -55,7 +55,8 @@ validation_generator = train_data.flow_from_directory(
     target_size=(150, 150),
     batch_size=128,
     class_mode='categorical',
-    subset='validation'  # Set to 'validation' for validation images
+    subset='validation',  # Set to 'validation' for validation images
+    shuffle=False # **IMPORTANT**: Set shuffle to False for correct evaluation
 )
 
 """## Read Test Data"""
@@ -68,8 +69,8 @@ test_generator=test_data.flow_from_directory(
     '/kaggle/input/new-plant-diseases-dataset/New Plant Diseases Dataset(Augmented)/New Plant Diseases Dataset(Augmented)/valid/',
     target_size=(150, 150),
     batch_size=128,
-    class_mode='categorical'
-
+    class_mode='categorical',
+    shuffle=False # **IMPORTANT**: Set shuffle to False for correct evaluation
 )
 
 """# **Showing Each Class Name and Coressponding Index:**"""
@@ -93,7 +94,7 @@ random_indices = np.random.choice(len(images), 50, replace=False)  # Choose 50 r
 # Plot 50 random images with labels
 plt.figure(figsize=(20, 20))
 for i, idx in enumerate(random_indices):
-    plt.subplot(10, 5, i + 1)  # Create a grid of 5 rows and 10 columns
+    plt.subplot(10, 5, i + 1)  # Create a grid of 10 rows and 5 columns
     plt.imshow(images[idx])
     plt.title(class_labels[label_indices[idx]])  # Show the label as the title
     plt.axis('off')  # Hide the axis
@@ -140,7 +141,7 @@ plot_model(model, to_file='model_plot.png', show_shapes=True, show_layer_names=T
 
 from tensorflow.keras import metrics
 model.compile(optimizer='adam',loss='categorical_crossentropy'
-              ,metrics=['accuracy',metrics.Recall(),metrics.Precision()])
+                ,metrics=['accuracy',metrics.Recall(),metrics.Precision()])
 
 early_stopping=EarlyStopping(monitor='val_loss',patience=5)
 model_checkpoint=ModelCheckpoint(
@@ -211,8 +212,8 @@ plt.tight_layout()
 plt.show()
 
 # Get predictions on the validation set
-y_probs = model.predict(validation_generator)   # probabilities for each class
-y_pred = np.argmax(y_probs, axis=1)             # pick highest probability class
+y_probs = model.predict(validation_generator)  # probabilities for each class
+y_pred = np.argmax(y_probs, axis=1)          # pick highest probability class
 
 from sklearn.metrics import confusion_matrix, classification_report
 import seaborn as sns
@@ -220,9 +221,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Step 1: Get predictions
-y_probs = model.predict(validation_generator)   # probabilities
-y_pred = np.argmax(y_probs, axis=1)             # predicted labels
-y_true = validation_generator.classes           # true labels
+# Note: We use validation_generator here, as in the original script.
+# Ensure validation_generator has shuffle=False
+y_probs = model.predict(validation_generator)  # probabilities
+y_pred = np.argmax(y_probs, axis=1)            # predicted labels
+y_true = validation_generator.classes          # true labels
 
 # Step 2: Confusion Matrix
 cm = confusion_matrix(y_true, y_pred)
@@ -232,40 +235,39 @@ plt.figure(figsize=(12, 8))
 sns.heatmap(cm, annot=True, fmt='d', cmap="Blues", xticklabels=labels, yticklabels=labels)
 plt.xlabel("Predicted")
 plt.ylabel("True")
-plt.title("Confusion Matrix")
+plt.title("Confusion Matrix (on Validation Set)")
 plt.show()
 
 # Step 3: Classification Report
-print("Classification Report:\n")
+print("Classification Report (on Validation Set):\n")
 print(classification_report(y_true, y_pred, target_names=labels))
 
 """# **Evaluation Function For all Train,Valid and Test**"""
 
 def Evaluate_model(model, train_generator, validation_generator, test_generator):
+    print("--- Training Set Evaluation ---")
     model_evaluate_train = model.evaluate(train_generator)
-    print("Loss       : ", model_evaluate_train[0])
-    print("Accuracy   : ", model_evaluate_train[1])
-    print("Precision  : ", model_evaluate_train[2])
-    print("Recall     : ", model_evaluate_train[3])
-
-
+    print(f"Loss       : {model_evaluate_train[0]:.4f}")
+    print(f"Accuracy   : {model_evaluate_train[1]:.4f}")
+    print(f"Precision  : {model_evaluate_train[2]:.4f}")
+    print(f"Recall     : {model_evaluate_train[3]:.4f}")
+    print("\n--- Validation Set Evaluation ---")
     model_evaluate_valid = model.evaluate(validation_generator)
-    print("Loss       : ", model_evaluate_valid[0])
-    print("Accuracy   : ", model_evaluate_valid[1])
-    print("Precision  : ", model_evaluate_valid[2])
-    print("Recall     : ", model_evaluate_valid[3])
-
-
+    print(f"Loss       : {model_evaluate_valid[0]:.4f}")
+    print(f"Accuracy   : {model_evaluate_valid[1]:.4f}")
+    print(f"Precision  : {model_evaluate_valid[2]:.4f}")
+    print(f"Recall     : {model_evaluate_valid[3]:.4f}")
+    print("\n--- Test Set Evaluation ---")
     model_evaluate_test = model.evaluate(test_generator)
-    print("Loss       : ", model_evaluate_test[0])
-    print("Accuracy   : ", model_evaluate_test[1])
-    print("Precision  : ", model_evaluate_test[2])
-    print("Recall     : ", model_evaluate_test[3])
+    print(f"Loss       : {model_evaluate_test[0]:.4f}")
+    print(f"Accuracy   : {model_evaluate_test[1]:.4f}")
+    print(f"Precision  : {model_evaluate_test[2]:.4f}")
+    print(f"Recall     : {model_evaluate_test[3]:.4f}")
 
-    return np.round(model_evaluate_train[0], 2), np.round(model_evaluate_test[0], 2), \
-           np.round(model_evaluate_train[1], 2), np.round(model_evaluate_test[1], 2), \
-           np.round(model_evaluate_train[2], 2), np.round(model_evaluate_test[2], 2), \
-           np.round(model_evaluate_train[3], 2), np.round(model_evaluate_test[3], 2)
+    return (np.round(model_evaluate_train[0], 2), np.round(model_evaluate_test[0], 2),
+            np.round(model_evaluate_train[1], 2), np.round(model_evaluate_test[1], 2),
+            np.round(model_evaluate_train[2], 2), np.round(model_evaluate_test[2], 2),
+            np.round(model_evaluate_train[3], 2), np.round(model_evaluate_test[3], 2))
 
 """# **Print all Evaluation Metrics of both Train,Valid,Testing**"""
 
@@ -276,3 +278,4 @@ Final_Report.append(Evaluate_model(model, train_generator, validation_generator,
 """# **Save the Model:**"""
 
 model.save('/kaggle/working/cnn_model2.h5')
+print("Model saved to /kaggle/working/cnn_model2.h5")
