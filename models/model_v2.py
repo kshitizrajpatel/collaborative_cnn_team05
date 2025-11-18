@@ -275,4 +275,4 @@ Final_Report.append(Evaluate_model(model, train_generator, validation_generator,
 
 """# **Save the Model:**"""
 
-model.save('/kaggle/working/my_cnn_model.h5')
+model.save('/kaggle/working/cnn_model2.h5')
