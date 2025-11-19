@@ -1,0 +1,1588 @@
+[
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5331988334655762
+      },
+      {
+        "index": 0,
+        "prob": 0.4668012261390686
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5331459045410156
+      },
+      {
+        "index": 0,
+        "prob": 0.46685415506362915
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5331695675849915
+      },
+      {
+        "index": 0,
+        "prob": 0.4668305218219757
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5331710577011108
+      },
+      {
+        "index": 0,
+        "prob": 0.4668290317058563
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5331562757492065
+      },
+      {
+        "index": 0,
+        "prob": 0.46684375405311584
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5329237580299377
+      },
+      {
+        "index": 0,
+        "prob": 0.46707630157470703
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5327667593955994
+      },
+      {
+        "index": 0,
+        "prob": 0.46723324060440063
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5330830812454224
+      },
+      {
+        "index": 0,
+        "prob": 0.46691688895225525
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5330111384391785
+      },
+      {
+        "index": 0,
+        "prob": 0.46698886156082153
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5330804586410522
+      },
+      {
+        "index": 0,
+        "prob": 0.46691954135894775
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.532995343208313
+      },
+      {
+        "index": 0,
+        "prob": 0.467004656791687
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5330599546432495
+      },
+      {
+        "index": 0,
+        "prob": 0.4669400751590729
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5330054759979248
+      },
+      {
+        "index": 0,
+        "prob": 0.4669945240020752
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.532972514629364
+      },
+      {
+        "index": 0,
+        "prob": 0.4670274555683136
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5329896807670593
+      },
+      {
+        "index": 0,
+        "prob": 0.46701034903526306
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5329487323760986
+      },
+      {
+        "index": 0,
+        "prob": 0.467051237821579
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5329485535621643
+      },
+      {
+        "index": 0,
+        "prob": 0.4670514464378357
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5330969095230103
+      },
+      {
+        "index": 0,
+        "prob": 0.46690312027931213
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.533135712146759
+      },
+      {
+        "index": 0,
+        "prob": 0.46686431765556335
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5329603552818298
+      },
+      {
+        "index": 0,
+        "prob": 0.46703970432281494
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5331541895866394
+      },
+      {
+        "index": 0,
+        "prob": 0.4668458104133606
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5329546928405762
+      },
+      {
+        "index": 0,
+        "prob": 0.46704530715942383
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5331947803497314
+      },
+      {
+        "index": 0,
+        "prob": 0.46680524945259094
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5330243110656738
+      },
+      {
+        "index": 0,
+        "prob": 0.4669756293296814
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5330904126167297
+      },
+      {
+        "index": 0,
+        "prob": 0.4669095575809479
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5330546498298645
+      },
+      {
+        "index": 0,
+        "prob": 0.4669453501701355
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5331777930259705
+      },
+      {
+        "index": 0,
+        "prob": 0.46682217717170715
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5330380797386169
+      },
+      {
+        "index": 0,
+        "prob": 0.46696195006370544
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5330963134765625
+      },
+      {
+        "index": 0,
+        "prob": 0.4669036865234375
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5330943465232849
+      },
+      {
+        "index": 0,
+        "prob": 0.46690574288368225
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5330588221549988
+      },
+      {
+        "index": 0,
+        "prob": 0.46694111824035645
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "AppleCedarRust1.JPG",
+      "AppleCedarRust2.JPG",
+      "AppleCedarRust3.JPG",
+      "AppleCedarRust4.JPG",
+      "AppleScab1.JPG",
+      "AppleScab2.JPG",
+      "AppleScab3.JPG",
+      "CornCommonRust1.JPG",
+      "CornCommonRust2.JPG",
+      "CornCommonRust3.JPG",
+      "PotatoEarlyBlight1.JPG",
+      "PotatoEarlyBlight2.JPG",
+      "PotatoEarlyBlight3.JPG",
+      "PotatoEarlyBlight4.JPG",
+      "PotatoEarlyBlight5.JPG",
+      "PotatoHealthy1.JPG",
+      "PotatoHealthy2.JPG",
+      "TomatoEarlyBlight1.JPG",
+      "TomatoEarlyBlight2.JPG",
+      "TomatoEarlyBlight3.JPG",
+      "TomatoEarlyBlight4.JPG",
+      "TomatoEarlyBlight5.JPG",
+      "TomatoEarlyBlight6.JPG",
+      "TomatoHealthy1.JPG",
+      "TomatoHealthy2.JPG",
+      "TomatoHealthy3.JPG",
+      "TomatoHealthy4.JPG",
+      "TomatoYellowCurlVirus1.JPG",
+      "TomatoYellowCurlVirus2.JPG",
+      "TomatoYellowCurlVirus3.JPG",
+      "TomatoYellowCurlVirus4.JPG",
+      "TomatoYellowCurlVirus5.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5331924557685852
+      },
+      {
+        "index": 0,
+        "prob": 0.46680748462677
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "filename": [
+      "TomatoYellowCurlVirus6.JPG"
+    ],
+    "predicted_index": 1,
+    "predicted_label": null,
+    "top5": [
+      {
+        "index": 1,
+        "prob": 0.5331812500953674
+      },
+      {
+        "index": 0,
+        "prob": 0.46681877970695496
+      }
+    ],
+    "ground_truth": null
+  }
+]
