@@ -45,8 +45,7 @@ Source: `metrics_v1.json`.
 - Final validation loss: **0.6953**
 - Final validation accuracy: **0.50** (50%)
 - Epochs trained: **5**
-- Observation: Model v1 did not train successfully — validation accuracy remained at 50% across epochs, indicating either an issue with the training loop, incorrect labels/loader, or an accidental freeze of weights (or severe underfitting/bug).
-
+  
 ### 6.2 Model v2 — In-domain (New Plant Diseases)
 Source: `metric_v2.json`.
 - Training accuracy: **0.9766**
@@ -90,4 +89,5 @@ These results show Model v2 transfers quite well to PlantVillage (the cross-test
 ## 9. Conclusion
 - **Model v2** is a successful, well-trained model with strong in-domain and cross-dataset performance.
 - **Model v1** (MobileNetV2) requires debugging — its current run did not converge and produced effectively random predictions.
+
 
