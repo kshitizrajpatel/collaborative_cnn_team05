@@ -8,16 +8,16 @@ This project utilized the full GitHub collaboration workflow (forks, branches, p
 
 ## 🎯 Project Objective
 
-[cite_start]The primary objective was to collaboratively design, train, and evaluate CNN models for the same image classification task, focusing on deep learning implementation, the full GitHub collaboration workflow, and cross-domain testing and model comparison[cite: 5, 7, 8, 9, 10].
+The primary objective was to collaboratively design, train, and evaluate CNN models for the same image classification task, focusing on deep learning implementation, the full GitHub collaboration workflow, and cross-domain testing and model comparison.
 
 ### Scenario and Dataset Allocation
 
-[cite_start]Two users investigated the Leaf Disease Classification problem, but each user trained their model on a **separate, proprietary dataset** that could not be shared[cite: 12, 20].
+[cite_start]Two users investigated the Leaf Disease Classification problem, but each user trained their model on a **separate, proprietary dataset** that could not be shared.
 
 | Team Member | Dataset Name | Role |
 | :--- | :--- | :--- |
-| **User 1 (Base Repo Owner)** | [cite_start]Plant Village Dataset [cite: 21] | Developed Model V1, Cross-tested Model V2 |
-| **User 2 (Fork Owner)** | [cite_start]New Plant Diseases Dataset [cite: 21] | Tested Model V1, Developed Model V2 |
+| **User 1 (Base Repo Owner)** |Plant Village Dataset  | Developed Model V1, Cross-tested Model V2 |
+| **User 2 (Fork Owner)** | New Plant Diseases Dataset | Tested Model V1, Developed Model V2 |
 
 ---
 
@@ -32,7 +32,7 @@ This project utilized the full GitHub collaboration workflow (forks, branches, p
 | `models/` | Contains model definitions (`model_v1.py`, `model_v2.py`) and saved weights (`.pth` or `.h5`). |
 | `notebooks/` | Contains Jupyter Notebooks used for training and testing (e.g., `train_v1.ipynb`, `test_v2.ipynb`). |
 | `results/` | Contains performance metrics (`metrics_v1.json`, `metrics_v2.json`) and cross-test results (`test_v1_user2.json`, `test_v2_user1.json`). |
-| `report.md` | [cite_start]**Final Deliverable:** Contains the required summary comparison of model v1 vs model v2, metrics on both datasets, and observations on generalization and domain shift[cite: 69, 92, 95, 96]. |
+| `report.md` | **Final Deliverable:** Contains the required summary comparison of model v1 vs model v2, metrics on both datasets, and observations on generalization and domain shift |
 
 ---
 
