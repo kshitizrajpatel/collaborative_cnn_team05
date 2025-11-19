@@ -1,0 +1,63 @@
+name: Check Repository Structure and Metrics
+
+# 1. Trigger the workflow on every push to the main branch
+on:
+  push:
+    branches:
+      - main
+
+# 2. Define the jobs to be executed
+jobs:
+  verify-structure:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository code
+        uses: actions/checkout@v4
+
+      - name: Define Required Paths
+        id: paths
+        run: |
+          # Assignment-Required Directories
+          echo "REQUIRED_DIRS=models/ notebooks/ results/ utils/" >> $GITHUB_OUTPUT
+          
+          # Assignment-Required Deliverables (Models, Metrics, Tests)
+          echo "REQUIRED_FILES=README.md report.md" >> $GITHUB_OUTPUT
+          
+          # User 1 Deliverables
+          echo "REQUIRED_USER1_FILES=models/model_v1.py results/metrics_v1.json" >> $GITHUB_OUTPUT
+          
+          # User 2 Deliverables
+          echo "REQUIRED_USER2_FILES=models/model_v2.py results/metrics_v2.json" >> $GITHUB_OUTPUT
+          
+          # Cross-Test Results
+          echo "REQUIRED_TEST_FILES=results/test_v1_user2.json results/test_v2_user1.json" >> $GITHUB_OUTPUT
+
+
+      - name: Verify Core Directories Exist
+        run: |
+          echo "--- Checking Core Directories ---"
+          for DIR in ${{ steps.paths.outputs.REQUIRED_DIRS }}; do
+            if [ ! -d "$DIR" ]; then
+              echo "❌ ERROR: Required directory is missing: $DIR"
+              exit 1
+            else
+              echo "✅ Found directory: $DIR"
+            fi
+          done
+
+
+      - name: Verify Essential Files Exist
+        run: |
+          echo "--- Checking Essential Files ---"
+          ALL_FILES="${{ steps.paths.outputs.REQUIRED_FILES }} ${{ steps.paths.outputs.REQUIRED_USER1_FILES }} ${{ steps.paths.outputs.REQUIRED_USER2_FILES }} ${{ steps.paths.outputs.REQUIRED_TEST_FILES }}"
+          
+          for FILE in $ALL_FILES; do
+            if [ ! -f "$FILE" ]; then
+              echo "❌ ERROR: Required deliverable file is missing: $FILE"
+              exit 1
+            else
+              echo "✅ Found file: $FILE"
+            fi
+          done
+          
+          echo "--- Structure and Core Deliverables Verified Successfully! ---"
